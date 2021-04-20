@@ -29,9 +29,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ['ResourceConnector_DB_SubResourceName'],
-        'HOST': os.environ['ResourceConnector_DB_TargetServiceEndpoint'],
-        'USER': os.environ['ResourceConnector_DB_Name'],
-        'PASSWORD': os.environ['ResourceConnector_DB_Key'] 
+        'NAME': os.environ['ResourceConnector_testconn1_SubResourceName'],
+        'HOST': os.environ['ResourceConnector_testconn1_TargetServiceEndpoint'],
+        'USER': os.environ['ResourceConnector_testconn1_Name'],
+        'PASSWORD': os.environ['ResourceConnector_testconn1_Key'] 
     }
 }
